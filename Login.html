@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Вход</title>
+  <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #40E0D0;
+    color: white;
+    padding: 20px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h2>Вход</h2>
+
+<form>
+  <div class="container">
+    <label for="uname"><b>Имя пользователя</b></label>
+    <input type="text" placeholder="Введите имя пользователя" name="uname" required>
+
+    <label for="psw"><b>Пароль</b></label>
+    <input type="password" placeholder="Введите пароль" name="psw" required>
+
+    <button type="submit"><h3>Вход</h3></button>
+
+  </div>
+</form>
+
+</body>
+</html>
