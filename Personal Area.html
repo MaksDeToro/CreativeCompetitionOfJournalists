@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Личный кабинет</title>
+  <style>
+    body {
+    font-family: Ariel, Helvetica, sans-serif;
+    background-color: white;
+}
+
+   .menu {
+    position: fixed;
+    right: 20px;
+    top: 0%;
+    padding: 10px;
+    background-color: #40E0D0;
+    color: white;
+    border: 0px solid #333;
+   }
+   .text {
+    height: 1000px;
+   }
+
+/* Set a style for the submit button */
+.sendbtn {
+    background-color: #40E0D0;
+    color: white;
+    padding: 20px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.sendbtn:hover {
+    opacity: 1;
+}
+  </style>
+</head>
+<body>
+<form action="/action_page.php">
+  <div class="container">
+      <h1>Личный кабинет</h1>
+<fieldset>
+<legend>
+Анкета
+</legend>
+<h4>Фамилия</h4>
+<p><input type="text" size="40" />
+<h4>Имя</h4>
+<p><input type="text" size="40" />
+<h4>Отчество</h4>
+<p><input type="text" size="40" />
+<h4>Должность</h4>
+<p><input type="text" size="40" />
+ <h4>Место работы</h4>
+<p><input type="text" size="40" />
+ <h4>Тема работы</h4>
+<p><input type="text" size="40" />
+<h4>Заголовок работы</h4>
+<p><input type="text" size="40" />
+ <h4>Аннотация по конкурсной работе</h4>
+<textarea name="about" id="about" cols="100" rows="50"> </textarea></p>
+ <h4>Приложите свою конкурсную работу в формате выдержки публикации из  СМИ (docx, pdf) или нарезки ролика телепередачи или эфира (avi, mp4).</h4>
+<p><input type="file" multiple="multiple"></p>
+<button type="submit" class="sendbtn"><h2>Отправить</h2></button>
+</fieldset>
+ </div>
+    <div class="menu">Почта</div>
+</body>
+</html>
