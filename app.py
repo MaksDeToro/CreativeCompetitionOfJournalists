@@ -23,7 +23,7 @@ def register():
     return render_template('Register.html')
 
 
-app.route('/personal_area')
+@app.route('/personal_area')
 def personal_area():
     return render_template('Personal Area.html')
 
